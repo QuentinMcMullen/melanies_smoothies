@@ -3,6 +3,8 @@ import streamlit as st
 ###from snowflake.snowpark.context import get_active_session  #needed for streamlit in snowflake, but not needed for pure streamlit
 from snowflake.snowpark.functions import col
 import requests
+import pandas as pd
+
 
 # Write directly to the app
 st.title(":cup_with_straw: Smoothies! :smile:")
